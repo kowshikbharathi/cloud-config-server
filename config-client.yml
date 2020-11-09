@@ -2,8 +2,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/bharathi
-    username: ${Username}
-    password: ${Password}
+    username: ${username}
+    password: ${password}
   jpa:
     show-sql: true
     hibernate:
