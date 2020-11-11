@@ -22,4 +22,8 @@ healthcare:
    vitalsign:
      uri: http://localhost:8082/VitalSign
      name: Healthcare-Management-VitalSign-API 
-  
+   configclient:
+     uri: http://localhost:8888
+     name: config-client
+   vault:
+     uri: http://localhost:8200
