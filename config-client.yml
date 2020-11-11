@@ -25,5 +25,3 @@ healthcare:
    configclient:
      uri: http://localhost:8888
      name: config-client
-   vault:
-     uri: http://localhost:8200
