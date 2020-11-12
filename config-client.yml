@@ -11,14 +11,4 @@ spring:
     properties:
       hibernate:
        dialect: org.hibernate.dialect.MySQL5Dialect
-healthcare:
-  management:
-   patient:
-     uri: http://localhost:8080/Patient
-     name: Healthcare-Management-Patient-API
-   vitalsign:
-     uri: http://localhost:8082/VitalSign
-     name: Healthcare-Management-VitalSign-API 
-   user:
-     uri: http://localhost:8081/Users
-     name: Healthcare-Management-User-API 
+
