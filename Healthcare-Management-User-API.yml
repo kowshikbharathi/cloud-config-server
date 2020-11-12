@@ -1,1 +1,24 @@
-
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bharathi
+    username: ${username}
+    password: ${password}
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+       dialect: org.hibernate.dialect.MySQL5Dialect
+healthcare:
+  management:
+   patient:
+     uri: http://localhost:8080/Patient
+     name: Healthcare-Management-Patient-API
+   vitalsign:
+     uri: http://localhost:8082/VitalSign
+     name: Healthcare-Management-VitalSign-API 
+   
